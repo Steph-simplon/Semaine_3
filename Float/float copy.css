@@ -34,18 +34,6 @@ li
     padding: 0.5em;
 }
 
-a
-{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover
-{
-    color: #F1C40F;
-    text-decoration: underline;
-}
-
 h2
 {
     background-color: #F1C40F ;
@@ -60,25 +48,13 @@ h2
 img
 {
     margin: 5px;
-    width: 200px;
+    width: 200px;   
 }
 
-.croatie
+.croatie1
 {
-    float: left;
-    padding: 0.2em;
-}
-
-.bali
-{
-    float: right;
-    padding: 0.2em;
-}
-
-.japon
-{
-    float: left;
-    padding: 0.2em;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 p
