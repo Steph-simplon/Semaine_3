@@ -57,6 +57,11 @@ h2
     font-size: 2em;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 img
 {
     margin: 5px;
