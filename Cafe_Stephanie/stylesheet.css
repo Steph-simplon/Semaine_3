@@ -27,13 +27,19 @@ ul
 {
     list-style: none;
     display: flex;
-    margin: 4px;
-    font-size: 1.2em;
+    margin: 0px;
+    font-size: 1.1em;
 }
 
 li
 {
-    margin: 20px;
+    margin: 0;
+    padding:25px ;
+}
+
+li:hover
+{
+    background-color: #444444 ;
 }
 
 .article1
